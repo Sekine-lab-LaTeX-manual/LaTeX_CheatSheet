@@ -1,0 +1,11 @@
+# Fdb version 3
+["dvipdf"] 0 "latex_out/manual.dvi" "latex_out/manual.pdf" "latex_out/manual" 0
+  "latex_out/manual.dvi" 0 -1 0 "latex"
+  (generated)
+  "latex_out/manual.pdf"
+["latex"] 0 "/Users/satoshi/Documents/書類/ゼミ1/LATEX_manual/manual.tex" "latex_out/manual.dvi" "manual" 0
+  "/Users/satoshi/Documents/書類/ゼミ1/LATEX_manual/manual.tex" 0 -1 0 ""
+  "latex_out/manual.aux" 1676361583 8 a94a2480d3289e625eea47cd1b285758 ""
+  (generated)
+  "latex_out/manual.log"
+  "latex_out/manual.dvi"
