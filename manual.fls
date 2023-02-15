@@ -329,12 +329,20 @@ INPUT /Applications/TeXLive/Library/texlive/2020/texmf-dist/fonts/tfm/public/ams
 INPUT /Applications/TeXLive/Library/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
 INPUT /Applications/TeXLive/Library/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /Applications/TeXLive/Library/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
+OUTPUT manual.dvi
+INPUT /Applications/TeXLive/Library/texlive/2020/texmf-dist/fonts/tfm/ptex-fonts/standard/tgoth10.tfm
+INPUT /Applications/TeXLive/Library/texlive/2020/texmf-dist/fonts/tfm/ptex-fonts/jis/jisg.tfm
+INPUT /Applications/TeXLive/Library/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmss10.tfm
 INPUT /Applications/TeXLive/Library/texlive/2020/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin10.tfm
 INPUT /Applications/TeXLive/Library/texlive/2020/texmf-dist/fonts/tfm/ptex-fonts/jis/jis.tfm
 INPUT /Applications/TeXLive/Library/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /Applications/TeXLive/Library/texlive/2020/texmf-dist/fonts/tfm/ptex-fonts/standard/tgoth10.tfm
 INPUT /Applications/TeXLive/Library/texlive/2020/texmf-dist/fonts/tfm/ptex-fonts/jis/jisg.tfm
 INPUT /Applications/TeXLive/Library/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmss12.tfm
+INPUT ./manual.toc
+INPUT manual.toc
+INPUT manual.toc
+OUTPUT manual.toc
 INPUT /Applications/TeXLive/Library/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT /Applications/TeXLive/Library/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT /Applications/TeXLive/Library/texlive/2020/texmf-dist/fonts/tfm/ptex-fonts/jis/jis.tfm
@@ -344,5 +352,4 @@ INPUT /Applications/TeXLive/Library/texlive/2020/texmf-dist/fonts/tfm/public/ams
 INPUT /Applications/TeXLive/Library/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT /Applications/TeXLive/Library/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
 INPUT /Applications/TeXLive/Library/texlive/2020/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin10.tfm
-OUTPUT manual.dvi
 INPUT manual.aux

@@ -1,4 +1,4 @@
-\documentclass[a4paper,11pt]{jsarticle}
+\documentclass[a4paper,11pt,titlepage]{jsarticle}
 \usepackage[dvipdfmx]{graphicx}
 \usepackage[top=25mm, bottom=25mm, left=25mm, right=25mm]{geometry}
 \usepackage{listings, jlisting}
@@ -40,9 +40,18 @@
 \date{\today}
 \maketitle
 
-\section{はじめに}
+\tableofcontents
+
+\newpage
+
+\section{この文書について}
 
 この文書は \LaTeX の使い方を記したものです．各自の文書作成に役立ててください．
+この文書はGithubで管理してあるので，各自好きなように編集することができます．
+\LaTeX についての基本的な使い方や便利なコマンドなど，普段 \LaTeX で文書を書くときに役に立つことを見つけたり気づいたりしたときに，
+gitやGithubを用いてmanual.texを編集してください．
+そのとき，必ず自分でmanual.texをコンパイルし，出力されたpdfファイルに問題がないことを確認した上で，
+gitまたはGithubでmanual.texとmanual.pdfを更新してください．
 \LaTeX の環境構築については各自で行うことにしてください．
 
 \end{document}

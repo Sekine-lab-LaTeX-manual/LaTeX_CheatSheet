@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.3-191112-2.6 (utf8.euc) (TeX Live 2020) (preloaded format=platex 2022.10.2)  14 FEB 2023 17:05
+This is e-pTeX, Version 3.14159265-p3.8.3-191112-2.6 (utf8.euc) (TeX Live 2020) (preloaded format=platex 2022.10.2)  15 FEB 2023 20:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -387,6 +387,13 @@ LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
 (Font)              scaled to size 11.53198pt on input line 41.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 (Font)              scaled to size 5.76599pt on input line 41.
+ [1
+
+]
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 43.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 43.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
 (Font)              scaled to size 13.83836pt on input line 43.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
@@ -395,22 +402,25 @@ LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
 (Font)              scaled to size 13.83836pt on input line 43.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 13.83836pt on input line 43.
+ (./manual.toc)
+\tf@toc=\write4
+\openout4 = `manual.toc'.
+
+ [1]
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 45.
+(Font)              scaled to size 6.72699pt on input line 49.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 4.805pt on input line 45.
+(Font)              scaled to size 4.805pt on input line 49.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 45.
- [1
-
-] (./manual.aux) ) 
+(Font)              scaled to size 6.72699pt on input line 49.
+ [2] (./manual.aux) ) 
 Here is how much of TeX's memory you used:
- 5402 strings out of 480388
- 76609 string characters out of 5887454
- 560237 words of memory out of 5000000
- 22132 multiletter control sequences out of 15000+600000
- 549605 words of font info for 96 fonts, out of 8000000 for 9000
+ 5408 strings out of 480388
+ 76662 string characters out of 5887454
+ 560151 words of memory out of 5000000
+ 22134 multiletter control sequences out of 15000+600000
+ 550191 words of font info for 99 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 78i,6n,86p,376b,268s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 78i,6n,86p,376b,263s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on manual.dvi (1 page, 1112 bytes).
+Output written on manual.dvi (3 pages, 2368 bytes).
