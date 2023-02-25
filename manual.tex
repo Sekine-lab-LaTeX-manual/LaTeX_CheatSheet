@@ -59,5 +59,37 @@ gitまたはGithubでmanual.texとmanual.pdfを更新してください．
 \LaTeX の環境構築については各自で行うことにしてください．
 難しいようであればOverleafやCloudLaTeXなどのクラウド上で利用できる \LaTeX サービスをおすすめします．
 
+\section{数式}
 
+\subsection{諸記号}
+
+\subsubsection{絶対値，ノルム}
+
+数式内で絶対値を表示したい場合，
+\begin{center}
+    \verb+|x|+
+\end{center}
+のように縦棒で絶対値にしたい箇所を挟めばよいです．
+ノルムを表示したい場合，
+\begin{center}
+    \verb+\|x\|+
+\end{center}
+のようにバックスラッシュと縦棒を並べたもので挟めば$\|x\|$とすることができます．
+これらのコマンドはシンプルである分融通がききやすいですが，分数を挟む場合には分数と記号の縦幅が一致しません．
+これを解消するには\verb|\left|と\verb|\right|で記号を挟む必要がありますがこれをいちいちタイプするのは手間です．
+
+physicsパッケージを使用すればこの問題を解決できます．プリアンプルに
+\begin{center}
+    \verb|\usepackage{physics}|
+\end{center}
+と書くことでphysicsパッケージを使用できます．physicsパッケージでは絶対値を表示したい場合，
+\begin{center}
+    \verb|\abs{x}|
+\end{center}
+とすれば$\abs{x}$が出力できます．また，ノルムを表示したい場合は，
+\begin{center}
+    \verb|\norm{x}|
+\end{center}
+とすれば$\norm{x}$と出力できます．
+さらに数式内の文字や数字と同様に\verb|{}|の後ろに上付き文字や下付き文字をつけることができます．
 \end{document}

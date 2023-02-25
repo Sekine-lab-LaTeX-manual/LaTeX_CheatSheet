@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.3-191112-2.6 (utf8.euc) (TeX Live 2020) (preloaded format=platex 2022.10.2)  21 FEB 2023 15:14
+This is e-pTeX, Version 3.14159265-p3.8.3-191112-2.6 (utf8.euc) (TeX Live 2020) (preloaded format=platex 2022.10.2)  26 FEB 2023 02:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -329,25 +329,30 @@ LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
 (Font)              scaled to size 13.83836pt on input line 43.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 13.83836pt on input line 43.
- (latex_out/manual.toc)
+ (latex_out/manual.toc
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 6.72699pt on input line 3.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 4.805pt on input line 3.
+)
 \tf@toc=\write4
 \openout4 = `manual.toc'.
 
  [1]
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 49.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 4.805pt on input line 49.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
 (Font)              scaled to size 6.72699pt on input line 49.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 64.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 64.
  [2] (latex_out/manual.aux) ) 
 Here is how much of TeX's memory you used:
- 5409 strings out of 480388
- 76746 string characters out of 5887454
- 561151 words of memory out of 5000000
- 22134 multiletter control sequences out of 15000+600000
- 550191 words of font info for 99 fonts, out of 8000000 for 9000
+ 5412 strings out of 480388
+ 76782 string characters out of 5887454
+ 564151 words of memory out of 5000000
+ 22136 multiletter control sequences out of 15000+600000
+ 550947 words of font info for 103 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  78i,6n,86p,376b,263s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on latex_out/manual.dvi (3 pages, 3020 bytes).
+Output written on latex_out/manual.dvi (3 pages, 5376 bytes).
