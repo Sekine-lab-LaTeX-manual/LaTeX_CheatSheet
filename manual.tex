@@ -61,6 +61,36 @@ gitまたはGithubでmanual.texとmanual.pdfを更新してください．
 
 \section{数式}
 
+\subsection{式番号}
+
+equation環境やalign環境で数式を書くと自動で式番号が付与されます．
+式番号をつけたくない場合は
+\begin{center}
+    \verb|\begin{equation*}|，\verb|\begin{align*}|
+\end{center}
+のように環境名の後ろにアスタリスクを追加します．
+また，通常の環境においても式の各行の最後に
+\begin{center}
+    \verb|\notag|
+\end{center}
+を書くことでその行だけ番号をつけないようにすることもできます．
+
+式番号を文中で参照するときは，数式環境内で参照したい式の後ろに
+\begin{center}
+    \verb|\label{}|
+\end{center}
+で好きなラベル名をつけ，文中で
+\begin{center}
+    \verb|\ref{}|
+\end{center}
+と書いて，カッコ内に参照したいラベル名を入力すれば式番号を参照することができます．
+しかし，この方法では参照した式番号にカッコがつかないので手動で\verb|(\ref{})|のようにしなければなりません．
+そこで\verb|\ref{}|の代わりに
+\begin{center}
+    \verb|\eqref{}|
+\end{center}
+を使えば自動で式番号にカッコをつけることができるため，こちらを使用することをおすすめします．
+
 \subsection{諸記号}
 
 \subsubsection{絶対値，ノルム}
