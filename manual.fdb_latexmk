@@ -1,9 +1,16 @@
 # Fdb version 3
-["dvipdf"] 1677566099 "manual.dvi" "manual.pdf" "manual" 1677566100
-  "manual.dvi" 1677566099 7272 a6478e05a6ec9d9ef5623d3623349663 "latex"
+["bibtex manual"] 1678388420 "manual.aux" "manual.bbl" "manual" 1678388422
+  "jplain.bst" 0 -1 0 ""
+  "manual.aux" 1678388421 843 14d6a17dfd0206fcf5354a65e94af40a "latex"
+  "manual.bib" 1678384422 459 54ce9d8aa50f8d951ccb6bab2a29cb8e ""
+  (generated)
+  "manual.bbl"
+  "manual.blg"
+["dvipdf"] 1678388421 "manual.dvi" "manual.pdf" "manual" 1678388422
+  "manual.dvi" 1678388421 9512 04c9a37b54160940dda2bc275bfb09cd "latex"
   (generated)
   "manual.pdf"
-["latex"] 1677566099 "/Users/satoshi/Documents/書類/ゼミ1/LATEX_manual/manual.tex" "manual.dvi" "manual" 1677566100
+["latex"] 1678388420 "/Users/satoshi/Documents/書類/ゼミ1/LATEX_manual/manual.tex" "manual.dvi" "manual" 1678388422
   "/Applications/TeXLive/Library/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/Applications/TeXLive/Library/texlive/2020/texmf-dist/fonts/tfm/ptex-fonts/jis/jis.tfm" 1463434352 468 53f854284f6afa6c36aaa2d1090ecc12 ""
   "/Applications/TeXLive/Library/texlive/2020/texmf-dist/fonts/tfm/ptex-fonts/jis/jisg.tfm" 1463434352 468 53f854284f6afa6c36aaa2d1090ecc12 ""
@@ -64,16 +71,18 @@
   "/Applications/TeXLive/Library/texlive/2020/texmf-dist/tex/latex/mathtools/mhsetup.sty" 1585083035 5437 39f2bba90502a381bd48d78339c1a5f0 ""
   "/Applications/TeXLive/Library/texlive/2020/texmf-dist/tex/latex/physics/physics.sty" 1356048875 29610 a9597219b282d9c78b02393dcd7d4322 ""
   "/Applications/TeXLive/Library/texlive/2020/texmf-dist/tex/latex/tools/calc.sty" 1580683321 10216 5efd55f2010055e7b7875afd6a75be82 ""
+  "/Applications/TeXLive/Library/texlive/2020/texmf-dist/tex/latex/url/url.sty" 1388531844 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "/Applications/TeXLive/Library/texlive/2020/texmf-dist/tex/platex/jsclasses/jsarticle.cls" 1602274849 60810 4554ddf6e0b4ed9f3f486c72558ba459 ""
   "/Applications/TeXLive/Library/texlive/2020/texmf-dist/tex/platex/jsclasses/jslogo.sty" 1601931076 5585 8e4615c54073c390d14154b29cee89cb ""
   "/Applications/TeXLive/Library/texlive/2020/texmf-dist/web2c/texmf.cnf" 1598393674 39451 15a3ebee027466ecb89701aa91dfebaf ""
   "/Applications/TeXLive/Library/texlive/2020/texmf.cnf" 1664682009 690 c279098c92feb545d010f9551ecbe29d ""
   "/Users/Shared/TeXLive/texmf-var/web2c/eptex/platex.fmt" 1664682103 2592765 b2ef5c6ccf5a011f7c974f8d755ebf03 ""
-  "/Users/satoshi/Documents/書類/ゼミ1/LATEX_manual/manual.tex" 1677565946 5038 7c06ecf6dc6408feb421f1f326de21ce ""
-  "manual.aux" 1677566099 561 3fb692c02c8591772d6da09c7bf06344 "latex"
-  "manual.toc" 1677566099 324 5da0be800db70e2df633947e47223b54 "latex"
+  "/Users/satoshi/Documents/書類/ゼミ1/LATEX_manual/manual.tex" 1678388412 6727 d39f9004b45bc3c7c3bbcfb7a4f042eb ""
+  "manual.aux" 1678388421 843 14d6a17dfd0206fcf5354a65e94af40a "latex"
+  "manual.bbl" 1678388420 246 e19dd78af569e0495a941212ae9f467f "bibtex manual"
+  "manual.toc" 1678388421 439 86082af637a0dbcebe058af482727947 "latex"
   (generated)
+  "manual.toc"
+  "manual.log"
   "manual.dvi"
   "manual.aux"
-  "manual.log"
-  "manual.toc"

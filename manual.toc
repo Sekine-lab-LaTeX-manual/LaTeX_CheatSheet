@@ -1,5 +1,7 @@
 \contentsline {section}{\numberline {1}この文書について}{2}{}%
-\contentsline {section}{\numberline {2}数式}{2}{}%
-\contentsline {subsection}{\numberline {2.1}式番号}{2}{}%
-\contentsline {subsection}{\numberline {2.2}諸記号}{2}{}%
-\contentsline {subsubsection}{\numberline {2.2.1}絶対値，ノルム}{2}{}%
+\contentsline {section}{\numberline {2}数式}{3}{}%
+\contentsline {subsection}{\numberline {2.1}式番号}{3}{}%
+\contentsline {subsection}{\numberline {2.2}諸記号}{3}{}%
+\contentsline {subsubsection}{\numberline {2.2.1}絶対値，ノルム}{3}{}%
+\contentsline {section}{\numberline {3}参考文献について}{5}{}%
+\contentsline {section}{参考文献}{6}{}%

@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.3-191112-2.6 (utf8.euc) (TeX Live 2020) (preloaded format=platex 2022.10.2)  28 FEB 2023 15:32
+This is e-pTeX, Version 3.14159265-p3.8.3-191112-2.6 (utf8.euc) (TeX Live 2020) (preloaded format=platex 2022.10.2)  10 MAR 2023 04:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -215,9 +215,7 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
 \xmathstrut@dim=\dimen192
 ) (/Applications/TeXLive/Library/texlive/2020/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
-) (/Applications/TeXLive/Library/texlive/2020/texmf-dist/tex/latex/comment/comment.sty
-\CommentStream=\write3
- Excluding comment 'comment') (/Applications/TeXLive/Library/texlive/2020/texmf-dist/tex/latex/physics/physics.sty
+) (/Applications/TeXLive/Library/texlive/2020/texmf-dist/tex/latex/physics/physics.sty
 Package: physics 
  (/Applications/TeXLive/Library/texlive/2020/texmf-dist/tex/latex/l3packages/xparse/xparse.sty (/Applications/TeXLive/Library/texlive/2020/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2020-10-05 L3 programming layer (loader) 
@@ -232,7 +230,12 @@ File: l3backend-dvips.def 2020-09-24 L3 backend support: dvips
 \g__pdf_backend_link_sf_int=\count280
 ))
 Package: xparse 2020-10-05 L3 Experimental document command parser
- (/Applications/TeXLive/Library/texlive/2020/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.tex)))
+ (/Applications/TeXLive/Library/texlive/2020/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.tex))) (/Applications/TeXLive/Library/texlive/2020/texmf-dist/tex/latex/comment/comment.sty
+\CommentStream=\write3
+ Excluding comment 'comment') (/Applications/TeXLive/Library/texlive/2020/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
 \c@dfn=\count281
 \c@thm=\count282
  (/Applications/TeXLive/Library/texlive/2020/texmf-dist/tex/latex/listings/lstlang1.sty
@@ -242,24 +245,24 @@ File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
 ) (latex_out/manual.aux)
 \openout1 = `manual.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: dvips
@@ -297,38 +300,38 @@ LaTeX Font Info:    ... okay on input line 36.
 
 \c@lstlisting=\count283
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 16.60605pt on input line 41.
+(Font)              scaled to size 16.60605pt on input line 44.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 16.60605pt on input line 41.
+(Font)              scaled to size 16.60605pt on input line 44.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 41.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 41.
+(Font)              scaled to size 11.53198pt on input line 44.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 44.
 (/Applications/TeXLive/Library/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 41.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 44.
  (/Applications/TeXLive/Library/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 41.
+(Font)              scaled to size 11.53198pt on input line 44.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 5.76599pt on input line 41.
+(Font)              scaled to size 5.76599pt on input line 44.
  [1
 
 ]
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 43.
+(Font)              scaled to size 9.60999pt on input line 46.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 43.
+(Font)              scaled to size 9.60999pt on input line 46.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 43.
+(Font)              scaled to size 13.83836pt on input line 46.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 43.
+(Font)              scaled to size 13.83836pt on input line 46.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 43.
+(Font)              scaled to size 13.83836pt on input line 46.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 43.
+(Font)              scaled to size 13.83836pt on input line 46.
  (latex_out/manual.toc
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 (Font)              scaled to size 6.72699pt on input line 3.
@@ -340,19 +343,20 @@ LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 
  [1]
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 49.
+(Font)              scaled to size 6.72699pt on input line 52.
+ [2]
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 64.
+(Font)              scaled to size 11.53198pt on input line 69.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 64.
- [2] [3] (latex_out/manual.aux) ) 
+(Font)              scaled to size 11.53198pt on input line 69.
+ [3] [4] [5] (./manual.bbl) [6] (latex_out/manual.aux) ) 
 Here is how much of TeX's memory you used:
- 5412 strings out of 480388
- 76782 string characters out of 5887454
- 564151 words of memory out of 5000000
- 22136 multiletter control sequences out of 15000+600000
+ 5492 strings out of 480388
+ 77819 string characters out of 5887454
+ 565441 words of memory out of 5000000
+ 22209 multiletter control sequences out of 15000+600000
  550947 words of font info for 103 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 78i,6n,86p,376b,263s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 78i,6n,86p,396b,307s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on latex_out/manual.dvi (4 pages, 7272 bytes).
+Output written on latex_out/manual.dvi (7 pages, 9512 bytes).
