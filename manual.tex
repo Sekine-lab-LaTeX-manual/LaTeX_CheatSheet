@@ -5,6 +5,7 @@
 \usepackage{amsfonts,amsmath,amsthm,mathtools,amssymb,physics}
 \usepackage{comment}
 \usepackage{url}
+\usepackage{bxtexlogo}
 
 \mathtoolsset{showonlyrefs=true}
 \numberwithin{equation}{section}
@@ -57,7 +58,7 @@
 \LaTeX についての基本的な使い方や便利なコマンドなど，普段 \LaTeX で文書を書くときに役に立つことを見つけたり気づいたりしたときに，
 gitやGithubを用いてmanual.texを編集してください．
 そのとき，必ず自分でmanual.texをコンパイルし，出力されたpdfファイルに問題がないことを確認した上で，
-gitまたはGithubでmanual.texとmanual.pdfを更新してください．
+gitまたはGithubでmanual.texとmanual.pdfを更新してください(必要に応じて.bibや.styも同様に更新してください)．
 
 \LaTeX の環境構築については各自で行うことにしてください．
 難しいようであればOverleafやCloudLaTeXなどのクラウド上で利用できる \LaTeX サービスをおすすめします．
@@ -70,35 +71,35 @@ gitまたはGithubでmanual.texとmanual.pdfを更新してください．
 
 \verb|equation|環境や\verb|align|環境で数式を書くと自動で式番号が付与されます．
 式番号をつけたくない場合は
-\begin{center}
-    \verb|\begin{equation*}|，\verb|\begin{align*}|
-\end{center}
+\begin{verbatim}
+    \begin{equation*}，\begin{align*}
+\end{verbatim}
 のように環境名の後ろにアスタリスクを追加します．
 また，通常の環境においても式の各行の最後に
-\begin{center}
-    \verb|\notag|
-\end{center}
+\begin{verbatim}
+    \notag
+\end{verbatim}
 を書くことでその行だけ番号をつけないようにすることもできます．
 デフォルトでは，数式番号は
 
 式番号を文中で参照するときは，数式環境内で参照したい式の後ろに
-\begin{center}
-    \verb|\label{}|
-\end{center}
+\begin{verbatim}
+    \label{}
+\end{verbatim}
 で好きなラベル名をつけ，文中で
-\begin{center}
-    \verb|\ref{}|
-\end{center}
+\begin{verbatim}
+    \ref{}
+\end{verbatim}
 と書いて，カッコ内に参照したいラベル名を入力すれば式番号を参照することができます．
 しかし，この方法では参照した式番号にカッコがつかないので手動で\verb|(\ref{})|のようにしなければなりません．
 そこで，プリアンプルに
-\begin{center}
-    \verb|\usepackage{amsmath}|
-\end{center}
+\begin{verbatim}
+    \usepackage{amsmath}
+\end{verbatim}
 と書いておき，\verb|\ref{}|の代わりに
-\begin{center}
-    \verb|\eqref{}|
-\end{center}
+\begin{verbatim}
+    \eqref{}
+\end{verbatim}
 を使えば自動で式番号にカッコをつけることができるため，こちらを使用することをおすすめします．
 
 また，関根研究室においては数学系の文書を作成する機会が多くなることかと思いますが，
@@ -106,13 +107,13 @@ gitまたはGithubでmanual.texとmanual.pdfを更新してください．
 しかし，その都度式番号をつけたり消したりするのは面倒なので，
 自動で参照する式のみに番号を割り振るようにすると楽です．そのためには\verb|mathtools|パッケージを使います．
 プリアンプルに
-\begin{center}
-    \verb|\usepackage{mathtools}|
-\end{center}
+\begin{verbatim}
+    \usepackage{mathtools}
+\end{verbatim}
 と書いておき，さらにプリアンプルに
-\begin{center}
-    \verb|\mathtoolsset{showonlyrefs=true}|
-\end{center}
+\begin{verbatim}
+    \mathtoolsset{showonlyrefs=true}
+\end{verbatim}
 とすれば，参照していない式には番号が振られないようになります\cite{FomulaNumber}．
 
 \subsection{諸記号}
@@ -120,30 +121,30 @@ gitまたはGithubでmanual.texとmanual.pdfを更新してください．
 \subsubsection{絶対値，ノルム}
 
 数式内で絶対値を表示したい場合，
-\begin{center}
-    \verb+|x|+
-\end{center}
+\begin{verbatim}
+    |x|
+\end{verbatim}
 のように縦棒で絶対値にしたい箇所を挟めばよいです．
 ノルムを表示したい場合，
-\begin{center}
-    \verb+\|x\|+
-\end{center}
+\begin{verbatim}
+    \|x\|
+\end{verbatim}
 のようにバックスラッシュと縦棒を並べたもので挟めば$\|x\|$とすることができます．
 これらのコマンドはシンプルである分融通がききやすいですが，分数を挟む場合には分数と記号の縦幅が一致しません．
 これを解消するには\verb|\left|と\verb|\right|で記号を挟む必要がありますがこれをいちいちタイプするのは手間です．
 
 \verb|physics|パッケージを使用すればこの問題を解決できます．プリアンプルに
-\begin{center}
-    \verb|\usepackage{physics}|
-\end{center}
+\begin{verbatim}
+    \usepackage{physics}
+\end{verbatim}
 と書くことでphysicsパッケージを使用できます．\verb|physics|パッケージでは絶対値を表示したい場合，
-\begin{center}
-    \verb|\abs{x}|
-\end{center}
+\begin{verbatim}
+    \abs{x}
+\end{verbatim}
 とすれば$\abs{x}$が出力できます．また，ノルムを表示したい場合は，
-\begin{center}
-    \verb|\norm{x}|
-\end{center}
+\begin{verbatim}
+    \norm{x}
+\end{verbatim}
 とすれば$\norm{x}$と出力できます．
 さらに数式内の文字や数字と同様に\verb|{}|の後ろに上付き文字や下付き文字をつけることができます．
 
@@ -151,11 +152,30 @@ gitまたはGithubでmanual.texとmanual.pdfを更新してください．
 
 \newpage
 
-\section{参考文献について}
+\section{文献の参照}
 
-\LaTeX で文書を作成するとき，参考文献を管理する環境として\verb|thebibliograph|環境があります．
-\verb|thebibliograph|環境の使い方については省略しますが，これを使うよりもBIBTEXを使用して，
-文献データベースとなる.bibファイルで参考文献の管理をする方が便利でしょう．
+\subsection{基本的な参照}
+
+\LaTeX で参考文献のリストを出力するには\verb|thebibliography|環境を使用します\cite{bibunsyo}．
+\verb|thebibliography|環境は，例えば次のように記述します．
+\begin{verbatim}
+    \begin{thebibliography}{9}
+        \bibitem{kinoshita}
+        木下是雄，理科系の作文技術，中央公論社，1981
+    \end{thebibliography}
+\end{verbatim}
+ここで，\verb|{9}|は参照する文献の数の上限です．任意の数で構いません．
+\verb|\bibitem|の後ろには文中で参照する際に使うキーの名前を書きます．
+このときキー名はなんでも構いませんが，わかりやすく書きやすいものにするとよいでしょう．
+文中で文献を参照したい箇所に
+\begin{verbatim}
+    \cite{kinoshita}
+\end{verbatim}
+と書けば[1]，[2]のように出力されます．
+参考文献の章を書くときはもちろん\verb|thebibliography|環境で問題ありませんが，
+\BibTeX を使用することでより便利な参考文献管理が可能になります．
+
+\subsection{\BibTeX}
 
 \newpage
 

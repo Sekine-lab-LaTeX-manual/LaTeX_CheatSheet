@@ -1,16 +1,16 @@
 # Fdb version 3
-["bibtex manual"] 1678388420 "manual.aux" "manual.bbl" "manual" 1678388422
+["bibtex manual"] 1678450649 "manual.aux" "manual.bbl" "manual" 1678450747
   "jplain.bst" 0 -1 0 ""
-  "manual.aux" 1678388421 843 14d6a17dfd0206fcf5354a65e94af40a "latex"
-  "manual.bib" 1678384422 459 54ce9d8aa50f8d951ccb6bab2a29cb8e ""
+  "manual.aux" 1678450746 1089 1ebf9912ad980186ef803e8ea60586de "latex"
+  "manual.bib" 1678450644 642 9a1996da647f16025947daba27692508 ""
   (generated)
   "manual.bbl"
   "manual.blg"
-["dvipdf"] 1678388421 "manual.dvi" "manual.pdf" "manual" 1678388422
-  "manual.dvi" 1678388421 9512 04c9a37b54160940dda2bc275bfb09cd "latex"
+["dvipdf"] 1678450747 "manual.dvi" "manual.pdf" "manual" 1678450747
+  "manual.dvi" 1678450746 11684 97079fae4a164731f3291104bc40dfeb "latex"
   (generated)
   "manual.pdf"
-["latex"] 1678388420 "/Users/satoshi/Documents/書類/ゼミ1/LATEX_manual/manual.tex" "manual.dvi" "manual" 1678388422
+["latex"] 1678450745 "/Users/satoshi/Documents/書類/ゼミ1/LATEX_manual/manual.tex" "manual.dvi" "manual" 1678450747
   "/Applications/TeXLive/Library/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/Applications/TeXLive/Library/texlive/2020/texmf-dist/fonts/tfm/ptex-fonts/jis/jis.tfm" 1463434352 468 53f854284f6afa6c36aaa2d1090ecc12 ""
   "/Applications/TeXLive/Library/texlive/2020/texmf-dist/fonts/tfm/ptex-fonts/jis/jisg.tfm" 1463434352 468 53f854284f6afa6c36aaa2d1090ecc12 ""
@@ -34,12 +34,19 @@
   "/Applications/TeXLive/Library/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmr8.tfm" 1136768653 1292 21c1c5bfeaebccffdb478fd231a0997d ""
   "/Applications/TeXLive/Library/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmss10.tfm" 1136768653 1316 b636689f1933f24d1294acdf6041daaa ""
   "/Applications/TeXLive/Library/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmss12.tfm" 1136768653 1324 37b971caf729d7edd9cbb9f9b0ea76eb ""
+  "/Applications/TeXLive/Library/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmss8.tfm" 1136768653 1296 d77f431d10d47c8ea2cc18cf45346274 ""
   "/Applications/TeXLive/Library/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm" 1136768653 1124 6c73e740cf17375f03eec0ee63599741 ""
   "/Applications/TeXLive/Library/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm" 1136768653 1116 933a60c408fc0a863a92debe84b2d294 ""
   "/Applications/TeXLive/Library/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1136768653 1120 8b7d695260f3cff42e636090a8002094 ""
   "/Applications/TeXLive/Library/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm" 1136768653 768 1321e9409b4137d6fb428ac9dc956269 ""
+  "/Applications/TeXLive/Library/texlive/2020/texmf-dist/tex/generic/hologo/hologo.sty" 1575674399 54310 0f5e60a2632b2fdcbd20696ce7bda514 ""
   "/Applications/TeXLive/Library/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty" 1583617216 6501 4011d89d9621e0b0901138815ba5ff29 ""
   "/Applications/TeXLive/Library/texlive/2020/texmf-dist/tex/generic/iftex/ifvtex.sty" 1572645307 1057 525c2192b5febbd8c1f662c9468335bb ""
+  "/Applications/TeXLive/Library/texlive/2020/texmf-dist/tex/generic/infwarerr/infwarerr.sty" 1575499628 8356 7bbb2c2373aa810be568c29e333da8ed ""
+  "/Applications/TeXLive/Library/texlive/2020/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty" 1576878844 5412 d5a2436094cd7be85769db90f29250a6 ""
+  "/Applications/TeXLive/Library/texlive/2020/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty" 1576624944 13807 952b0226d4efca026f0e19dd266dcc22 ""
+  "/Applications/TeXLive/Library/texlive/2020/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty" 1600895880 17859 4409f8f50cd365c68e684407e5350b1b ""
+  "/Applications/TeXLive/Library/texlive/2020/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty" 1593379760 20089 80423eac55aa175305d35b49e04fe23b ""
   "/Applications/TeXLive/Library/texlive/2020/texmf-dist/tex/latex/amscls/amsthm.sty" 1591045760 12594 0d51ac3a545aaaa555021326ff22a6cc ""
   "/Applications/TeXLive/Library/texlive/2020/texmf-dist/tex/latex/amsfonts/amsfonts.sty" 1359763108 5949 3f3fd50a8cc94c3d4cbf4fc66cd3df1c ""
   "/Applications/TeXLive/Library/texlive/2020/texmf-dist/tex/latex/amsfonts/amssymb.sty" 1359763108 13829 94730e64147574077f8ecfea9bb69af4 ""
@@ -50,6 +57,9 @@
   "/Applications/TeXLive/Library/texlive/2020/texmf-dist/tex/latex/amsmath/amsmath.sty" 1601675358 87353 2c21ff5f2e32e1bf714e600924d810db ""
   "/Applications/TeXLive/Library/texlive/2020/texmf-dist/tex/latex/amsmath/amsopn.sty" 1523134290 4116 32e6abd27229755a83a8b7f18e583890 ""
   "/Applications/TeXLive/Library/texlive/2020/texmf-dist/tex/latex/amsmath/amstext.sty" 1523134290 2432 8ff93b1137020e8f21930562a874ae66 ""
+  "/Applications/TeXLive/Library/texlive/2020/texmf-dist/tex/latex/bbm-macros/ubbm.fd" 1191314257 2132 62f898e14cad3357133b5cbf57b61c0a ""
+  "/Applications/TeXLive/Library/texlive/2020/texmf-dist/tex/latex/bxtexlogo/bxtexlogo.sty" 1522621833 19726 ce7081b394a1ea90c5b6cd223f6c6ad6 ""
+  "/Applications/TeXLive/Library/texlive/2020/texmf-dist/tex/latex/cjhebrew/cjhebrew.sty" 1489099864 2485 9b6e94504514a46e1f72eccaeaca5224 ""
   "/Applications/TeXLive/Library/texlive/2020/texmf-dist/tex/latex/comment/comment.sty" 1472166125 10197 204f75d5d8d88aa345a8c402e879e63b ""
   "/Applications/TeXLive/Library/texlive/2020/texmf-dist/tex/latex/geometry/geometry.sty" 1578002852 41601 9cf6c5257b1bc7af01a58859749dd37a ""
   "/Applications/TeXLive/Library/texlive/2020/texmf-dist/tex/latex/graphics-cfg/graphics.cfg" 1465944070 1224 978390e9c2234eab29404bc21b268d1e ""
@@ -58,6 +68,7 @@
   "/Applications/TeXLive/Library/texlive/2020/texmf-dist/tex/latex/graphics/graphicx.sty" 1601675358 7919 20fdfdd783821971c55bc8ee918cbe63 ""
   "/Applications/TeXLive/Library/texlive/2020/texmf-dist/tex/latex/graphics/keyval.sty" 1580683321 2590 e3b24ff953e5b58d924f163d25380312 ""
   "/Applications/TeXLive/Library/texlive/2020/texmf-dist/tex/latex/graphics/trig.sty" 1580683321 3976 d7fa7d81d2870d509d25b17d0245e735 ""
+  "/Applications/TeXLive/Library/texlive/2020/texmf-dist/tex/latex/ipaex-type1/c70ipxg.fd" 1526247674 801 ab55d97fe7c7f1473a0475f16191399b ""
   "/Applications/TeXLive/Library/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-dvips.def" 1600980374 32860 63891baa3c1e8b2b5e9009dbcf141ebc ""
   "/Applications/TeXLive/Library/texlive/2020/texmf-dist/tex/latex/l3kernel/expl3.sty" 1601931313 6209 be8e0b9a6f41672aeec5b3f295b68caa ""
   "/Applications/TeXLive/Library/texlive/2020/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.tex" 1589555814 80141 edbf9289c99ff37db17116af7a3a423f ""
@@ -77,12 +88,12 @@
   "/Applications/TeXLive/Library/texlive/2020/texmf-dist/web2c/texmf.cnf" 1598393674 39451 15a3ebee027466ecb89701aa91dfebaf ""
   "/Applications/TeXLive/Library/texlive/2020/texmf.cnf" 1664682009 690 c279098c92feb545d010f9551ecbe29d ""
   "/Users/Shared/TeXLive/texmf-var/web2c/eptex/platex.fmt" 1664682103 2592765 b2ef5c6ccf5a011f7c974f8d755ebf03 ""
-  "/Users/satoshi/Documents/書類/ゼミ1/LATEX_manual/manual.tex" 1678388412 6727 d39f9004b45bc3c7c3bbcfb7a4f042eb ""
-  "manual.aux" 1678388421 843 14d6a17dfd0206fcf5354a65e94af40a "latex"
-  "manual.bbl" 1678388420 246 e19dd78af569e0495a941212ae9f467f "bibtex manual"
-  "manual.toc" 1678388421 439 86082af637a0dbcebe058af482727947 "latex"
+  "/Users/satoshi/Documents/書類/ゼミ1/LATEX_manual/manual.tex" 1678450744 7521 6febae9146e6a52b703a1bf0487f6034 ""
+  "manual.aux" 1678450746 1089 1ebf9912ad980186ef803e8ea60586de "latex"
+  "manual.bbl" 1678450745 383 9b1fb4efb62a23e1651023cf41aafabc "bibtex manual"
+  "manual.toc" 1678450746 560 a35b596729b0eabbfddfbb8ad54de888 "latex"
   (generated)
   "manual.toc"
-  "manual.log"
   "manual.dvi"
   "manual.aux"
+  "manual.log"

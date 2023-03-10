@@ -6,4 +6,9 @@
 \newblock \url{https://mathlandscape.com/latex-eqnum/#toc3}.
 \newblock (閲覧日2023/03/10).
 
+\bibitem{bibunsyo}
+奥村晴彦, 黒木裕介.
+\newblock [改訂第8版]LaTeX2ε美文書作成入門.
+\newblock 技術評論社, 2020.
+
 \end{thebibliography}

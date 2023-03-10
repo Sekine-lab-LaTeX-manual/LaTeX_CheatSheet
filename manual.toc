@@ -3,5 +3,7 @@
 \contentsline {subsection}{\numberline {2.1}式番号}{3}{}%
 \contentsline {subsection}{\numberline {2.2}諸記号}{3}{}%
 \contentsline {subsubsection}{\numberline {2.2.1}絶対値，ノルム}{3}{}%
-\contentsline {section}{\numberline {3}参考文献について}{5}{}%
+\contentsline {section}{\numberline {3}文献の参照}{5}{}%
+\contentsline {subsection}{\numberline {3.1}基本的な参照}{5}{}%
+\contentsline {subsection}{\numberline {3.2}\BibTeX }{5}{}%
 \contentsline {section}{参考文献}{6}{}%

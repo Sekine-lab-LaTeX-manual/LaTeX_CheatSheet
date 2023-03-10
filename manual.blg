@@ -3,45 +3,45 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: manual.aux
 The style file: jplain.bst
 Database file #1: manual.bib
-You've used 1 entry,
+You've used 2 entries,
             2620 wiz_defined-function locations,
-            596 strings with 4660 characters,
-and the built_in function-call counts, 280 in all, are:
-= -- 21
-> -- 7
+            601 strings with 4735 characters,
+and the built_in function-call counts, 581 in all, are:
+= -- 43
+> -- 19
 < -- 0
-+ -- 3
-- -- 2
-* -- 7
-:= -- 46
-add.period$ -- 4
-call.type$ -- 1
-change.case$ -- 4
++ -- 8
+- -- 6
+* -- 17
+:= -- 91
+add.period$ -- 7
+call.type$ -- 2
+change.case$ -- 8
 chr.to.int$ -- 0
-cite$ -- 1
-duplicate$ -- 13
-empty$ -- 30
-format.name$ -- 3
-if$ -- 61
+cite$ -- 2
+duplicate$ -- 32
+empty$ -- 59
+format.name$ -- 9
+if$ -- 129
 int.to.chr$ -- 0
-int.to.str$ -- 1
-missing$ -- 0
-newline$ -- 9
-num.names$ -- 2
-pop$ -- 15
+int.to.str$ -- 2
+missing$ -- 2
+newline$ -- 14
+num.names$ -- 4
+pop$ -- 29
 preamble$ -- 1
-purify$ -- 3
+purify$ -- 7
 quote$ -- 0
-skip$ -- 12
+skip$ -- 26
 stack$ -- 0
-substring$ -- 5
+substring$ -- 10
 swap$ -- 1
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 4
+type$ -- 6
 warning$ -- 0
-while$ -- 2
-width$ -- 2
-write$ -- 13
-is.kanji.str$ -- 7
+while$ -- 4
+width$ -- 3
+write$ -- 23
+is.kanji.str$ -- 17
