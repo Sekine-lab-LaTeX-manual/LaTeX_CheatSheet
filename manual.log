@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.3-191112-2.6 (utf8.euc) (TeX Live 2020) (preloaded format=platex 2022.10.2)  10 MAR 2023 21:19
+This is e-pTeX, Version 3.14159265-p3.8.3-191112-2.6 (utf8.euc) (TeX Live 2020) (preloaded format=platex 2022.10.2)  18 MAR 2023 01:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -458,17 +458,17 @@ LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 11.53198pt on input line 70.
  [3] [4]
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 7.68799pt on input line 178.
+(Font)              scaled to size 7.68799pt on input line 186.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 7.68799pt on input line 178.
- [5] (./manual.bbl) [6] (./manual.aux) ) 
+(Font)              scaled to size 7.68799pt on input line 186.
+ [5] [6] (./manual.bbl) [7] (./manual.aux) ) 
 Here is how much of TeX's memory you used:
- 6485 strings out of 480388
- 94741 string characters out of 5887454
- 588650 words of memory out of 5000000
- 23170 multiletter control sequences out of 15000+600000
- 551528 words of font info for 106 fonts, out of 8000000 for 9000
+ 6488 strings out of 480388
+ 94777 string characters out of 5887454
+ 591650 words of memory out of 5000000
+ 23172 multiletter control sequences out of 15000+600000
+ 551863 words of font info for 107 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  78i,6n,86p,396b,362s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on manual.dvi (7 pages, 11684 bytes).
+Output written on manual.dvi (8 pages, 14340 bytes).
