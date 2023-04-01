@@ -1,4 +1,4 @@
-\documentclass[a4paper,11pt,titlepage]{jsarticle}
+\documentclass[a4paper,11pt]{jsreport}
 \usepackage[dvipdfmx]{graphicx}
 \usepackage[top=25mm, bottom=25mm, left=25mm, right=25mm]{geometry}
 \usepackage{listings, jlisting}
@@ -44,11 +44,7 @@
 \date{\today}
 \maketitle
 
-\tableofcontents
-
-\newpage
-
-\section{この文書について}
+\chapter*{はじめに}
 
 このマニュアルは{\LaTeX}で文書を作成するにあたって，
 ピンポイントな用途で役に立つようなものについて，インターネット上で調べるよりも簡潔でわかりやすくまとめることを理念として作られたものです．
@@ -63,11 +59,21 @@ gitまたはGithubでmanual.texとmanual.pdfを更新してください(必要�
 {\LaTeX}の環境構築については各自で行うことにしてください．
 難しいようであればOverleafやCloudLaTeXなどのクラウド上で利用できる{\LaTeX}サービスをおすすめします．
 
-\newpage
+\tableofcontents
 
-\section{数式}
+\chapter{基本的な使い方}
 
-\subsection{式番号}
+\section{目次}
+
+目次を表示させたい場合は，出力したい場所に
+\begin{verbatim}
+    \tableofcontents
+\end{verbatim}
+と書くだけです．この文書では「はじめに」の次のページに出力しています．
+
+\chapter{数式}
+
+\section{式番号}
 
 \verb|equation|環境や\verb|align|環境で数式を書くと自動で式番号が付与されます．
 
@@ -118,9 +124,9 @@ gitまたはGithubでmanual.texとmanual.pdfを更新してください(必要�
 \end{verbatim}
 とすれば，参照していない式には番号が振られないようになります\cite{FomulaNumber}．
 
-\subsection{諸記号}
+\section{諸記号}
 
-\subsubsection{絶対値，ノルム}
+\subsection{絶対値，ノルム}
 
 数式内で絶対値を表示したい場合，
 \begin{verbatim}
@@ -157,12 +163,9 @@ gitまたはGithubでmanual.texとmanual.pdfを更新してください(必要�
 
 さらに数式内の文字や数字と同様に\verb|{}|の後ろに上付き文字や下付き文字をつけることができます．
 
-\newpage
+\chapter{文献の参照}
 
-%参考文献のセクションにwebサイトの引用のことを書く(bibのやつ引用)
-\section{文献の参照}
-
-\subsection{基本的な参照方法}
+\section{基本的な参照方法}
 
 \LaTeX で参考文献のリストを出力するには\verb|thebibliography|環境を使用します\cite{bibunsyo}．
 \verb|thebibliography|環境は，例えば次のように記述します．
@@ -183,9 +186,9 @@ gitまたはGithubでmanual.texとmanual.pdfを更新してください(必要�
 参考文献の章を書くときはもちろん\verb|thebibliography|環境で問題ありませんが，
 \BibTeX を使用することでより便利な参考文献管理が可能になります．
 
-\subsection{\BibTeX}
+\section{\BibTeX}
 
-{\BibTeX}は文献データベースファイル(bibファイル)から自動的に参考文献リストを作ることができるツールです\cite{bibunsyo}．
+ {\BibTeX}は文献データベースファイル(bibファイル)から自動的に参考文献リストを作ることができるツールです\cite{bibunsyo}．
 
 まずtexファイルと同じフォルダに.bibで終わるファイルを作成します．作ったbibファイルに文献の必要な情報を，例えば次のように書きます．
 \begin{verbatim}
@@ -208,7 +211,7 @@ gitまたはGithubでmanual.texとmanual.pdfを更新してください(必要�
     }
 \end{verbatim}
 
-\verb|@|の次に続くものは他にも種類がいくつかありますが，私たちが使うものは
+\verb|@|の次に続くものは文献の種類を指定するもので，他にも種類がいくつかありますが，私たちが使うものは
 \begin{itemize}
     \item \verb|@book|：書籍
     \item \verb|@article|：論文
@@ -221,12 +224,38 @@ gitまたはGithubでmanual.texとmanual.pdfを更新してください(必要�
 字下げしている箇所については，これもいくつかオプションがありますがとりあえず例と同じように記述しておけば問題ないと思われます．
 他に追加したい項目がある場合には各自で使い方を調べてください．
 
+また，\verb|title|や\verb|author|などの項目は順番を気にする必要はありません．
+
 bibファイルを1から記述するのは少々面倒ですが，Google Scholarやほか一部の論文や書籍のWebサイトには{\BibTeX}のリンクがある場合があります．
 引用した文献をこれらのサイトで検索して，{\BibTeX}をそのまま自分のbibファイルにコピーすれば作業を大幅に削減できます．
 
-\newpage
+\section{Webサイトの引用}
 
-\addcontentsline{toc}{section}{\bibname}
+文書を作成するにあたって，Webサイトを参考にする場合も多くあるでしょう．\verb|thebibliography|環境を使って書いても問題ありませんが，
+ここでは{\BibTeX}でWebサイトの引用をする方法について紹介します．
+
+大まかには書籍や論文の場合と方法は変わりません．例えば，次のように書きます\cite{BibWeb}．
+\begin{verbatim}
+    @misc{BibWeb,
+        author       = {Paperist},
+        howpublished = {\url{https://paperist.mikumiku.moe/basic-usage/bibtex.html}},
+        title        = {{BibTeX} で参考文献を書く},
+        note         = {(閲覧日2023/03/10)}
+    }
+\end{verbatim}
+
+{\BibTeX}ではWebサイト用の指定オプションはないため，ここでは，特に指定のない場合に使用する\verb|@misc|を使います．
+
+書籍や論文を参照するときの\verb|publisher|，出版元に当たるところが\verb|howpublished|です．この欄にはサイトのURLを書きます．
+このとき，そのままURLを貼るのではなく，\verb|\url{}|で囲みます．コマンドを使うために，texファイルのプリアンプルに
+\begin{verbatim}
+    \usepackage{url}
+\end{verbatim}
+を書いておきましょう．bibファイルに書いても意味がないので注意してください．
+
+その他については留意しておくことはありません．例と同じように書いておくと良いかと思われます．
+
+%\addcontentsline{toc}{chapter}{\bibname}
 \bibliographystyle{jplain}
 \bibliography{manual}
 

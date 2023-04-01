@@ -1,5 +1,11 @@
 \begin{thebibliography}{1}
 
+\bibitem{BibWeb}
+Paperist.
+\newblock {BibTeX} で参考文献を書く.
+\newblock \url{https://paperist.mikumiku.moe/basic-usage/bibtex.html}.
+\newblock (閲覧日2023/03/10).
+
 \bibitem{bibunsyo}
 奥村晴彦, 黒木裕介.
 \newblock ［改訂第8版］{\LaTeX}2$\varepsilon$美文書作成入門.

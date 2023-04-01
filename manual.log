@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.3-191112-2.6 (utf8.euc) (TeX Live 2020) (preloaded format=platex 2022.10.2)  18 MAR 2023 01:01
+This is e-pTeX, Version 3.14159265-p3.8.3-191112-2.6 (utf8.euc) (TeX Live 2020) (preloaded format=platex 2022.10.2)  2 APR 2023 03:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6,35 +6,36 @@ entering extended mode
 (/Users/satoshi/Documents/�^^9b檎�^^9e/�^^82若^^83^^9f1/LATEX_manual/manual.tex
 pLaTeX2e <2020-10-01>+1 (based on LaTeX2e <2020-10-01> patch level 1)
 L3 programming layer <2020-10-05> xparse <2020-03-03>
-(/Applications/TeXLive/Library/texlive/2020/texmf-dist/tex/platex/jsclasses/jsa
-rticle.cls
-Document Class: jsarticle 2020/10/09 jsclasses (okumura, texjporg)
+(/Applications/TeXLive/Library/texlive/2020/texmf-dist/tex/platex/jsclasses/jsr
+eport.cls
+Document Class: jsreport 2020/10/09 jsclasses (okumura, texjporg)
 \jsc@mpt=\dimen154
 \jsc@mmm=\dimen155
 \jsc@smallskipamount=\skip47
-LaTeX Info: Redefining \textmc on input line 497.
-LaTeX Info: Redefining \textgt on input line 499.
+LaTeX Info: Redefining \textmc on input line 498.
+LaTeX Info: Redefining \textgt on input line 500.
 \symmincho=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
-(Font)                  JY1/mc/m/n --> JY1/gt/m/n on input line 561.
+(Font)                  JY1/mc/m/n --> JY1/gt/m/n on input line 562.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 755.
+(Font)              scaled to size 9.60999pt on input line 756.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 755.
+(Font)              scaled to size 9.60999pt on input line 756.
 \fullwidth=\dimen156
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 7.68799pt on input line 908.
+(Font)              scaled to size 7.68799pt on input line 895.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 7.68799pt on input line 908.
+(Font)              scaled to size 7.68799pt on input line 895.
 \c@part=\count174
-\c@section=\count175
-\c@subsection=\count176
-\c@subsubsection=\count177
-\c@paragraph=\count178
-\c@subparagraph=\count179
+\c@chapter=\count175
+\c@section=\count176
+\c@subsection=\count177
+\c@subsubsection=\count178
+\c@paragraph=\count179
+\c@subparagraph=\count180
 \@abstractbox=\box64
-\c@figure=\count180
-\c@table=\count181
+\c@figure=\count181
+\c@table=\count182
 \abovecaptionskip=\skip48
 \belowcaptionskip=\skip49
 \jsc@tocl@width=\dimen157
@@ -48,7 +49,7 @@ LaTeX Info: Redefining \TeX on input line 82.
 LaTeX Info: Redefining \LaTeX on input line 135.
 LaTeX Info: Redefining \LaTeXe on input line 188.
 )
-\heisei=\count182
+\heisei=\count183
 )
 (/Applications/TeXLive/Library/texlive/2020/texmf-dist/tex/latex/graphics/graph
 icx.sty
@@ -92,9 +93,9 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 sty
 Package: iftex 2020/03/06 v1.0d TeX engine tests
 ))
-\Gm@cnth=\count183
-\Gm@cntv=\count184
-\c@Gm@tempcnt=\count185
+\Gm@cnth=\count184
+\Gm@cntv=\count185
+\c@Gm@tempcnt=\count186
 \Gm@bindingoffset=\dimen162
 \Gm@wd@mp=\dimen163
 \Gm@odd@mp=\dimen164
@@ -107,24 +108,24 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 )
 (/Applications/TeXLive/Library/texlive/2020/texmf-dist/tex/latex/listings/listi
 ngs.sty
-\lst@mode=\count186
+\lst@mode=\count187
 \lst@gtempboxa=\box65
 \lst@token=\toks18
-\lst@length=\count187
+\lst@length=\count188
 \lst@currlwidth=\dimen170
-\lst@column=\count188
-\lst@pos=\count189
+\lst@column=\count189
+\lst@pos=\count190
 \lst@lostspace=\dimen171
 \lst@width=\dimen172
-\lst@newlines=\count190
-\lst@lineno=\count191
+\lst@newlines=\count191
+\lst@lineno=\count192
 \lst@maxwidth=\dimen173
 
 (/Applications/TeXLive/Library/texlive/2020/texmf-dist/tex/latex/listings/lstmi
 sc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count192
-\lst@skipnumbers=\count193
+\c@lstnumber=\count193
+\lst@skipnumbers=\count194
 \lst@framebox=\box66
 )
 (/Applications/TeXLive/Library/texlive/2020/texmf-dist/tex/latex/listings/listi
@@ -136,7 +137,7 @@ Package: listings 2020/03/24 1.8d (Carsten Heinz)
 (/Applications/TeXLive/Library/texlive/2020/texmf-dist/tex/latex/listings/jlist
 ing.sty
 Package: jlisting 2006/02/20 0.2 (Thor)
-\lst@nextchar=\count194
+\lst@nextchar=\count195
 \lst@inputfile=\read2
 )
 (/Applications/TeXLive/Library/texlive/2020/texmf-dist/tex/latex/amsfonts/amsfo
@@ -175,13 +176,13 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 .sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count195
+\inf@bad=\count196
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count196
-\leftroot@=\count197
+\uproot@=\count197
+\leftroot@=\count198
 LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count198
-\DOTSCASE@=\count199
+\classnum@=\count199
+\DOTSCASE@=\count266
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
@@ -190,15 +191,15 @@ LaTeX Info: Redefining \cdots on input line 620.
 \big@size=\dimen176
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count266
-\c@MaxMatrixCols=\count267
+\macc@depth=\count267
+\c@MaxMatrixCols=\count268
 \dotsspace@=\muskip16
-\c@parentequation=\count268
-\dspbrk@lvl=\count269
+\c@parentequation=\count269
+\dspbrk@lvl=\count270
 \tag@help=\toks21
-\row@=\count270
-\column@=\count271
-\maxfields@=\count272
+\row@=\count271
+\column@=\count272
+\maxfields@=\count273
 \andhelp@=\toks22
 \eqnshift@=\dimen177
 \alignsep@=\dimen178
@@ -232,15 +233,15 @@ Package: mathtools 2020/03/24 v1.24 mathematical typesetting tools
 
 (/Applications/TeXLive/Library/texlive/2020/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count273
-\calc@Bcount=\count274
+\calc@Acount=\count274
+\calc@Bcount=\count275
 \calc@Adimen=\dimen183
 \calc@Bdimen=\dimen184
 \calc@Askip=\skip56
 \calc@Bskip=\skip57
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count275
+\calc@Ccount=\count276
 \calc@Cskip=\skip58
 )
 (/Applications/TeXLive/Library/texlive/2020/texmf-dist/tex/latex/mathtools/mhse
@@ -251,7 +252,7 @@ LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
-\g_MT_multlinerow_int=\count276
+\g_MT_multlinerow_int=\count277
 \l_MT_multwidth_dim=\dimen185
 \origjot=\skip59
 \l_MT_shortvdotswithinadjustabove_dim=\dimen186
@@ -281,12 +282,12 @@ Package: expl3 2020-10-05 L3 programming layer (loader)
 ckend-dvips.def
 File: l3backend-dvips.def 2020-09-24 L3 backend support: dvips
 \l__pdf_internal_box=\box70
-\g__pdf_backend_object_int=\count277
+\g__pdf_backend_object_int=\count278
 \l__pdf_backend_content_box=\box71
 \l__pdf_backend_model_box=\box72
-\g__pdf_backend_annotation_int=\count278
-\g__pdf_backend_link_int=\count279
-\g__pdf_backend_link_sf_int=\count280
+\g__pdf_backend_annotation_int=\count279
+\g__pdf_backend_link_int=\count280
+\g__pdf_backend_link_sf_int=\count281
 ))
 Package: xparse 2020-10-05 L3 Experimental document command parser
 
@@ -334,8 +335,8 @@ Package pdftexcmds Info: \pdfdraftmode not found.
 ))
 \bxlg@g@height=\dimen193
 )
-\c@dfn=\count281
-\c@thm=\count282
+\c@dfn=\count282
+\c@thm=\count283
 
 (/Applications/TeXLive/Library/texlive/2020/texmf-dist/tex/latex/listings/lstla
 ng1.sty
@@ -400,7 +401,7 @@ LaTeX Font Info:    ... okay on input line 40.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@lstlisting=\count283
+\c@lstlisting=\count284
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
 (Font)              scaled to size 16.60605pt on input line 45.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
@@ -428,47 +429,75 @@ LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
  [1
 
 ]
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 47.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 47.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 47.
+(Font)              scaled to size 23.90964pt on input line 47.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 47.
+(Font)              scaled to size 23.90964pt on input line 47.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 47.
+(Font)              scaled to size 23.90964pt on input line 47.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 47.
- (./manual.toc
+(Font)              scaled to size 23.90964pt on input line 47.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 3.
+(Font)              scaled to size 6.72699pt on input line 49.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 4.805pt on input line 3.
+(Font)              scaled to size 4.805pt on input line 49.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 8.
-)
+(Font)              scaled to size 6.72699pt on input line 49.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 62.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 62.
+ [1
+
+] (./manual.toc)
 \tf@toc=\write4
 \openout4 = `manual.toc'.
 
- [1] [2]
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 70.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 70.
- [3] [4]
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 7.68799pt on input line 186.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 7.68799pt on input line 186.
- [5] [6] (./manual.bbl) [7] (./manual.aux) ) 
-Here is how much of TeX's memory you used:
- 6488 strings out of 480388
- 94777 string characters out of 5887454
- 591650 words of memory out of 5000000
- 23172 multiletter control sequences out of 15000+600000
- 551863 words of font info for 107 fonts, out of 8000000 for 9000
- 934 hyphenation exceptions out of 8191
- 78i,6n,86p,396b,362s stack positions out of 5000i,500n,10000p,200000b,80000s
+ [2
 
-Output written on manual.dvi (8 pages, 14340 bytes).
+]
+第1章
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 19.9311pt on input line 64.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 19.9311pt on input line 64.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 19.9311pt on input line 64.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 19.9311pt on input line 64.
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 13.83836pt on input line 66.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 13.83836pt on input line 66.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 13.83836pt on input line 66.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 13.83836pt on input line 66.
+[3
+
+]
+第2章
+[4
+
+]
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 129.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 129.
+ [5]
+第3章
+[6
+
+] (./manual.bbl [7]) [8
+
+] (./manual.aux) ) 
+Here is how much of TeX's memory you used:
+ 6527 strings out of 480388
+ 95304 string characters out of 5887454
+ 593215 words of memory out of 5000000
+ 23211 multiletter control sequences out of 15000+600000
+ 554863 words of font info for 121 fonts, out of 8000000 for 9000
+ 934 hyphenation exceptions out of 8191
+ 78i,6n,86p,396b,368s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on manual.dvi (9 pages, 18008 bytes).
