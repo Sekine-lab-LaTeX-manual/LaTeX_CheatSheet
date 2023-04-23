@@ -1,5 +1,12 @@
 \begin{thebibliography}{1}
 
+\bibitem{physics}
+Sergio~C. de~la Barrera.
+\newblock The \verb|physics| package.
+\newblock
+  \url{http://mirrors.ibiblio.org/CTAN/macros/latex/contrib/physics/physics.pdf}.
+\newblock (閲覧日2023/04/23).
+
 \bibitem{BibWeb}
 Paperist.
 \newblock {BibTeX} で参考文献を書く.

@@ -73,6 +73,41 @@ gitまたはGithubでmanual.texとmanual.pdfを更新してください(必要�
 
 \chapter{数式}
 
+\section{行列}
+
+数式環境内で行列を書くためには，\verb|amsmath|パッケージの\verb|matrix|，\verb|pmatrix|，\verb|bmatrix|環境などを使います．例えば，
+\begin{verbatim}
+    \begin{equation}
+        \begin{matrix}
+            a & b \\
+            c & d \\
+        \end{matrix}
+    \end{equation}
+\end{verbatim}
+と書けば，
+\begin{equation}
+    \begin{matrix}
+        a & b \\
+        c & d \\
+    \end{matrix}
+\end{equation}
+と表示されます．
+
+\verb|physics|パッケージの\verb|\mqty|コマンドを使用すれば，カッコ付きの行列をもう少し楽に書くことができます．
+例えば次のように書くと，
+\begin{verbatim}
+    \begin{equation}
+        \mqty(a & b \\ c & d)
+    \end{equation}
+\end{verbatim}
+このように表示されます．
+\begin{equation}
+    \mqty(a & b \\ c & d)
+\end{equation}
+
+\verb|\mqty|のあとのカッコは，\verb|{}|，\verb|()|，\verb|[]|，\verb+||+，が使用できます\cite{physics}．
+\verb|{}|の場合はカッコなしの行列になります．
+
 \section{式番号}
 
 \verb|equation|環境や\verb|align|環境で数式を書くと自動で式番号が付与されます．

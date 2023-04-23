@@ -1,10 +1,10 @@
-PWD /Users/satoshi/Documents/æ›¸é¡ž/ã‚»ã‚™ãƒŸ1/LATEX_manual
+PWD /Users/satoshi/Documents/Documents/seminar/LATEX_manual
 INPUT /Applications/TeXLive/Library/texlive/2020/texmf.cnf
 INPUT /Applications/TeXLive/Library/texlive/2020/texmf-dist/web2c/texmf.cnf
 INPUT /Applications/TeXLive/Library/texlive/2020/texmf.cnf
 INPUT /Applications/TeXLive/Library/texlive/2020/texmf-dist/web2c/texmf.cnf
 INPUT /Users/Shared/TeXLive/texmf-var/web2c/eptex/platex.fmt
-INPUT /Users/satoshi/Documents/½ñÎà/¥¼¥ß1/LATEX_manual/manual.tex
+INPUT /Users/satoshi/Documents/Documents/seminar/LATEX_manual/manual.tex
 OUTPUT manual.log
 INPUT /Applications/TeXLive/Library/texlive/2020/texmf-dist/tex/platex/jsclasses/jsreport.cls
 INPUT /Applications/TeXLive/Library/texlive/2020/texmf-dist/tex/platex/jsclasses/jsreport.cls
