@@ -1,16 +1,16 @@
 # Fdb version 3
-["bibtex manual"] 1682208587 "manual.aux" "manual.bbl" "manual" 1682208674
+["bibtex latex_out/cheat"] 1683866806 "latex_out/cheat.aux" "latex_out/cheat.bbl" "latex_out/cheat" 1683866901
+  "cheat.bib" 1683866806 907 798dba93b3857b6d95c664eb9d344fb5 ""
   "jplain.bst" 0 -1 0 ""
-  "manual.aux" 1682208673 1755 4a5f1a335f4c393f61bd85b2b05ef947 "latex"
-  "manual.bib" 1682208494 886 0f24394b839a04452b882334f6ce7135 ""
+  "latex_out/cheat.aux" 1683866900 1754 52e12dbe1ca68269a5096b6997966471 "latex"
   (generated)
-  "manual.bbl"
-  "manual.blg"
-["dvipdf"] 1682208674 "manual.dvi" "manual.pdf" "manual" 1682208674
-  "manual.dvi" 1682208673 20024 e15a1c9b6892af55ab394eb24ce08d07 "latex"
+  "latex_out/cheat.bbl"
+  "latex_out/cheat.blg"
+["dvipdf"] 1683866901 "latex_out/cheat.dvi" "latex_out/cheat.pdf" "latex_out/cheat" 1683866901
+  "latex_out/cheat.dvi" 1683866900 20028 528c238b598c98a512c74357f9ca56bd "latex"
   (generated)
-  "manual.pdf"
-["latex"] 1682208672 "/Users/satoshi/Documents/Documents/seminar/LATEX_manual/manual.tex" "manual.dvi" "manual" 1682208674
+  "latex_out/cheat.pdf"
+["latex"] 1683866899 "/Users/satoshi/Documents/Documents/seminar/LATEX_cheat/cheat.tex" "latex_out/cheat.dvi" "cheat" 1683866901
   "/Applications/TeXLive/Library/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/Applications/TeXLive/Library/texlive/2020/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
   "/Applications/TeXLive/Library/texlive/2020/texmf-dist/fonts/tfm/ptex-fonts/jis/jis.tfm" 1463434352 468 53f854284f6afa6c36aaa2d1090ecc12 ""
@@ -89,13 +89,13 @@
   "/Applications/TeXLive/Library/texlive/2020/texmf-dist/web2c/texmf.cnf" 1598393674 39451 15a3ebee027466ecb89701aa91dfebaf ""
   "/Applications/TeXLive/Library/texlive/2020/texmf.cnf" 1664682009 690 c279098c92feb545d010f9551ecbe29d ""
   "/Users/Shared/TeXLive/texmf-var/web2c/eptex/platex.fmt" 1664682103 2592765 b2ef5c6ccf5a011f7c974f8d755ebf03 ""
-  "/Users/satoshi/Documents/Documents/seminar/LATEX_manual/manual.tex" 1682208667 12425 406d20d1a9dcb492549174f267828f35 ""
-  "manual.aux" 1682208673 1755 4a5f1a335f4c393f61bd85b2b05ef947 "latex"
-  "manual.bbl" 1682208668 785 7cc0f53a2e87544f0311e22c2c2307d6 "bibtex manual"
-  "manual.tex" 1682208667 12425 406d20d1a9dcb492549174f267828f35 ""
-  "manual.toc" 1682208673 746 92b56150ab20fabdef4bf4ab3bb5800c "latex"
+  "/Users/satoshi/Documents/Documents/seminar/LATEX_cheat/cheat.tex" 1683866899 12426 d0f37feac2524aeb66da89de6d2c9da9 ""
+  "cheat.tex" 1683866899 12426 d0f37feac2524aeb66da89de6d2c9da9 ""
+  "latex_out/cheat.aux" 1683866900 1754 52e12dbe1ca68269a5096b6997966471 "latex"
+  "latex_out/cheat.bbl" 1683866806 785 7cc0f53a2e87544f0311e22c2c2307d6 "bibtex latex_out/cheat"
+  "latex_out/cheat.toc" 1683866900 746 92b56150ab20fabdef4bf4ab3bb5800c "latex"
   (generated)
-  "manual.log"
-  "manual.aux"
-  "manual.dvi"
-  "manual.toc"
+  "latex_out/cheat.dvi"
+  "latex_out/cheat.aux"
+  "latex_out/cheat.toc"
+  "latex_out/cheat.log"

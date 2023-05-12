@@ -1,0 +1,27 @@
+\begin{thebibliography}{1}
+
+\bibitem{physics}
+Sergio~C. de~la Barrera.
+\newblock The \verb|physics| package.
+\newblock
+  \url{http://mirrors.ibiblio.org/CTAN/macros/latex/contrib/physics/physics.pdf}.
+\newblock (閲覧日2023/04/23).
+
+\bibitem{BibWeb}
+Paperist.
+\newblock {BibTeX} で参考文献を書く.
+\newblock \url{https://paperist.mikumiku.moe/basic-usage/bibtex.html}.
+\newblock (閲覧日2023/03/10).
+
+\bibitem{bibunsyo}
+奥村晴彦, 黒木裕介.
+\newblock ［改訂第8版］{\LaTeX}2$\varepsilon$美文書作成入門.
+\newblock 技術評論社, 2020.
+
+\bibitem{FomulaNumber}
+数学の景色.
+\newblock 【{LaTeX}】数式番号に関するあれこれ.
+\newblock \url{https://mathlandscape.com/latex-eqnum/#toc3}.
+\newblock (閲覧日2023/03/10).
+
+\end{thebibliography}

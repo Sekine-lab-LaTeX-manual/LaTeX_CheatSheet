@@ -1,11 +1,11 @@
 This is pBibTeX, Version 0.99d-j0.33 (utf8.euc) (TeX Live 2020)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
-The top-level auxiliary file: manual.aux
+The top-level auxiliary file: latex_out/cheat.aux
 The style file: jplain.bst
-Database file #1: manual.bib
+Database file #1: cheat.bib
 You've used 4 entries,
             2620 wiz_defined-function locations,
-            611 strings with 5005 characters,
+            613 strings with 5034 characters,
 and the built_in function-call counts, 1103 in all, are:
 = -- 85
 > -- 33
