@@ -80,7 +80,7 @@ gitまたはGithubでcheat.texとcheat.pdfを更新してください(必要に�
     \begin{equation}
         \begin{matrix}
             a & b \\
-            c & d \\
+            c & d
         \end{matrix}
     \end{equation}
 \end{verbatim}
@@ -88,7 +88,7 @@ gitまたはGithubでcheat.texとcheat.pdfを更新してください(必要に�
 \begin{equation}
     \begin{matrix}
         a & b \\
-        c & d \\
+        c & d
     \end{matrix}
 \end{equation}
 と表示されます．
@@ -107,6 +107,7 @@ gitまたはGithubでcheat.texとcheat.pdfを更新してください(必要に�
 
 \verb|\mqty|のあとのカッコは，\verb|{}|，\verb|()|，\verb|[]|，\verb+||+，が使用できます\cite{physics}．
 \verb|{}|の場合はカッコなしの行列になります．
+
 
 \section{式番号}
 
@@ -135,7 +136,7 @@ gitまたはGithubでcheat.texとcheat.pdfを更新してください(必要に�
 と書いて，カッコ内に参照したいラベル名を入力すれば式番号を参照することができます．
 
 しかし，この方法では参照した式番号にカッコがつかないので手動で\verb|(\ref{})|のようにしなければなりません．
-そこで，プリアンプルに
+そこで，プリアンブルに
 \begin{verbatim}
     \usepackage{amsmath}
 \end{verbatim}
@@ -149,11 +150,11 @@ gitまたはGithubでcheat.texとcheat.pdfを更新してください(必要に�
 そのときに数多く出てくる数式すべてに式番号をつけると番号が極端に大きくなる可能性があります．
 しかし，その都度式番号をつけたり消したりするのは面倒なので，
 自動で参照する式のみに番号を割り振るようにすると楽です．そのためには\verb|mathtools|パッケージを使います．
-プリアンプルに
+プリアンブルに
 \begin{verbatim}
     \usepackage{mathtools}
 \end{verbatim}
-と書いておき，さらにプリアンプルに
+と書いておき，さらにプリアンブルに
 \begin{verbatim}
     \mathtoolsset{showonlyrefs=true}
 \end{verbatim}
@@ -178,7 +179,7 @@ gitまたはGithubでcheat.texとcheat.pdfを更新してください(必要に�
 これらのコマンドはシンプルである分融通がききやすいですが，分数を挟む場合には分数と記号の縦幅が一致しません．
 これを解消するには\verb|\left|と\verb|\right|で記号を挟む必要がありますがこれをいちいちタイプするのは手間です．
 
-\verb|physics|パッケージを使用すればこの問題を解決できます．プリアンプルに
+\verb|physics|パッケージを使用すればこの問題を解決できます．プリアンブルに
 \begin{verbatim}
     \usepackage{physics}
 \end{verbatim}
@@ -282,7 +283,7 @@ bibファイルを1から記述するのは少々面倒ですが，Google Schola
 {\BibTeX}ではWebサイト用の指定オプションはないため，ここでは，特に指定のない場合に使用する\verb|@misc|を使います．
 
 書籍や論文を参照するときの\verb|publisher|，出版元に当たるところが\verb|howpublished|です．この欄にはサイトのURLを書きます．
-このとき，そのままURLを貼るのではなく，\verb|\url{}|で囲みます．コマンドを使うために，texファイルのプリアンプルに
+このとき，そのままURLを貼るのではなく，\verb|\url{}|で囲みます．コマンドを使うために，texファイルのプリアンブルに
 \begin{verbatim}
     \usepackage{url}
 \end{verbatim}
