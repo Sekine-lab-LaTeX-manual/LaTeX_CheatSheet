@@ -285,9 +285,10 @@ bibファイルを1から記述するのは少々面倒ですが，Google Schola
 書籍や論文を参照するときの\verb|publisher|，出版元に当たるところが\verb|howpublished|です．この欄にはサイトのURLを書きます．
 このとき，そのままURLを貼るのではなく，\verb|\url{}|で囲みます．コマンドを使うために，texファイルのプリアンブルに
 \begin{verbatim}
-    \usepackage{url}
+    \usepackage[hyphens]{url}
 \end{verbatim}
-を書いておきましょう．bibファイルに書いても意味がないので注意してください．
+を書いておきましょう．bibファイルに書いても意味がないので注意してください．\verb|[hyphens]|をつけておくとurlの改行箇所がハイフンでも
+改行してくれるようになります．
 
 その他については留意しておくことはありません．例と同じように書いておくと良いかと思われます．
 
