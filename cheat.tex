@@ -1,0 +1,392 @@
+\documentclass[a4paper,11pt]{jsreport}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage[top=25mm, bottom=25mm, left=25mm, right=25mm]{geometry}
+\usepackage{listings, jlisting}
+\usepackage{amsfonts,amsmath,amsthm,mathtools,amssymb,physics}
+\usepackage{comment}
+\usepackage{url}
+\usepackage{bxtexlogo}
+
+\mathtoolsset{showonlyrefs=true}
+\numberwithin{equation}{section}
+
+\newcommand{\midrad}[1]{\left\langle #1 \right\rangle}
+
+\theoremstyle{definition}
+\newtheorem{dfn}{定義}[section]
+\newtheorem{thm}{定理}[section]
+
+\renewcommand{\proofname}{\textbf{証明}}
+
+\renewcommand{\lstlistingname}{ソースコード}
+\lstset{%
+    language={C},
+    basicstyle={\small},%
+    identifierstyle={\small},%
+    commentstyle={\small\itshape},%
+    keywordstyle={\small\bfseries},%
+    ndkeywordstyle={\small},%
+    stringstyle={\small\ttfamily},
+    frame={tb},
+    breaklines=true,
+    columns=[l]{fullflexible},%
+    xrightmargin=0zw,%
+    xleftmargin=3zw,%
+    numberstyle={\scriptsize},%
+    numbersep=1zw,%
+    lineskip=-0.5ex%
+}
+
+\begin{document}
+
+\title{{\LaTeX}チートシート}
+\author{関根研究室}
+\date{\today}
+\maketitle
+
+\chapter*{はじめに}
+
+このチートシートは{\LaTeX}で文書を作成するにあたって，
+ピンポイントな用途で役に立つようなものについて，インターネット上で調べるよりも簡潔でわかりやすくまとめることを理念として作られたものです．
+もちろん基本的な使い方について記述しても構いません．これを利用して各自の文書作成に役立ててください．
+
+この文書はGithubで管理してあるので，各自好きなように編集することができます．
+{\LaTeX}についての基本的な使い方や便利なコマンドなど，普段{\LaTeX}で文書を書くときに役に立つことを見つけたり気づいたりしたときに，
+gitやGithubを用いてcheat.texを編集してください．
+そのとき，必ず自分でcheat.texをコンパイルし，出力されたpdfファイルに問題がないことを確認した上で，
+gitまたはGithubでcheat.texとcheat.pdfを更新してください(必要に応じて.bibや.styも同様に更新してください)．
+
+{\LaTeX}の環境構築については各自で行うことにしてください．
+難しいようであればOverleafやCloudLaTeXなどのクラウド上で利用できる{\LaTeX}サービスをおすすめします．
+
+\tableofcontents
+
+\chapter{基本的な使い方}
+
+\section{目次}
+
+目次を表示させたい場合は，出力したい場所に
+\begin{verbatim}
+    \tableofcontents
+\end{verbatim}
+と書くだけです．この文書では「はじめに」の次のページに出力しています．
+
+\chapter{数式}
+
+\section{行列}
+
+数式環境内で行列を書くためには，\verb|amsmath|パッケージの\verb|matrix|，\verb|pmatrix|，\verb|bmatrix|環境などを使います．例えば，
+\begin{verbatim}
+    \begin{equation}
+        \begin{matrix}
+            a & b \\
+            c & d
+        \end{matrix}
+    \end{equation}
+\end{verbatim}
+と書けば，
+\begin{equation}
+    \begin{matrix}
+        a & b \\
+        c & d
+    \end{matrix}
+\end{equation}
+と表示されます．
+
+\verb|physics|パッケージの\verb|\mqty|コマンドを使用すれば，カッコ付きの行列をもう少し楽に書くことができます．
+例えば次のように書くと，
+\begin{verbatim}
+    \begin{equation}
+        \mqty(a & b \\ c & d)
+    \end{equation}
+\end{verbatim}
+このように表示されます．
+\begin{equation}
+    \mqty(a & b \\ c & d)
+\end{equation}
+
+\verb|\mqty|のあとのカッコは，\verb|{}|，\verb|()|，\verb|[]|，\verb+||+，が使用できます\cite{physics}．
+\verb|{}|の場合はカッコなしの行列になります．
+
+
+\section{式番号}
+
+\verb|equation|環境や\verb|align|環境で数式を書くと自動で式番号が付与されます．
+
+式番号をつけたくない場合は
+\begin{verbatim}
+    \begin{equation*}，\begin{align*}
+\end{verbatim}
+のように環境名の後ろにアスタリスクを追加します．
+
+また，通常の環境においても式の各行の最後に
+\begin{verbatim}
+    \notag
+\end{verbatim}
+を書くことでその行だけ番号をつけないようにすることもできます．
+
+式番号を文中で参照するときは，数式環境内で参照したい式の後ろに
+\begin{verbatim}
+    \label{}
+\end{verbatim}
+で好きなラベル名をつけ，文中で
+\begin{verbatim}
+    \ref{}
+\end{verbatim}
+と書いて，カッコ内に参照したいラベル名を入力すれば式番号を参照することができます．
+
+しかし，この方法では参照した式番号にカッコがつかないので手動で\verb|(\ref{})|のようにしなければなりません．
+そこで，プリアンブルに
+\begin{verbatim}
+    \usepackage{amsmath}
+\end{verbatim}
+と書いておき，\verb|\ref{}|の代わりに
+\begin{verbatim}
+    \eqref{}
+\end{verbatim}
+を使えば自動で式番号にカッコをつけることができるため，こちらを使用することをおすすめします．
+
+また，関根研究室においては数学系の文書を作成する機会が多くなることかと思いますが，
+そのときに数多く出てくる数式すべてに式番号をつけると番号が極端に大きくなる可能性があります．
+しかし，その都度式番号をつけたり消したりするのは面倒なので，
+自動で参照する式のみに番号を割り振るようにすると楽です．そのためには\verb|mathtools|パッケージを使います．
+プリアンブルに
+\begin{verbatim}
+    \usepackage{mathtools}
+\end{verbatim}
+と書いておき，さらにプリアンブルに
+\begin{verbatim}
+    \mathtoolsset{showonlyrefs=true}
+\end{verbatim}
+とすれば，参照していない式には番号が振られないようになります\cite{FomulaNumber}．
+
+\section{諸記号}
+
+\subsection{絶対値，ノルム}
+
+数式内で絶対値を表示したい場合，
+\begin{verbatim}
+    |x|
+\end{verbatim}
+のように縦棒で絶対値にしたい箇所を挟めばよいです．
+
+ノルムを表示したい場合，
+\begin{verbatim}
+    \|x\|
+\end{verbatim}
+のようにバックスラッシュと縦棒を並べたもので挟めば$\|x\|$とすることができます．
+
+これらのコマンドはシンプルである分融通がききやすいですが，分数を挟む場合には分数と記号の縦幅が一致しません．
+これを解消するには\verb|\left|と\verb|\right|で記号を挟む必要がありますがこれをいちいちタイプするのは手間です．
+
+\verb|physics|パッケージを使用すればこの問題を解決できます．プリアンブルに
+\begin{verbatim}
+    \usepackage{physics}
+\end{verbatim}
+と書くことでphysicsパッケージを使用できます．
+
+\verb|physics|パッケージでは絶対値を表示したい場合，
+\begin{verbatim}
+    \abs{x}
+\end{verbatim}
+とすれば$\abs{x}$が出力できます．
+
+また，ノルムを表示したい場合は，
+\begin{verbatim}
+    \norm{x}
+\end{verbatim}
+とすれば$\norm{x}$と出力できます．
+
+さらに数式内の文字や数字と同様に\verb|{}|の後ろに上付き文字や下付き文字をつけることができます．
+
+\subsection{丸め記号}
+
+丸め演算の記号を書きたい場合は，
+\begin{verbatim}
+    \overline{+}, \underline{-}
+\end{verbatim}
+のようにすれば，$\overline{+},\underline{-}$と表示できます．
+
+
+
+\chapter{文献の参照}
+
+\section{基本的な参照方法}
+
+\LaTeX で参考文献のリストを出力するには\verb|thebibliography|環境を使用します\cite{bibunsyo}．
+\verb|thebibliography|環境は，例えば次のように記述します．
+\begin{verbatim}
+    \begin{thebibliography}{9}
+        \bibitem{kinoshita}
+        木下是雄，理科系の作文技術，中央公論社，1981
+    \end{thebibliography}
+\end{verbatim}
+
+ここで，\verb|{9}|は参照する文献の数の上限です．任意の数で構いません．\verb|\bibitem|の後ろには文中で参照する際に使うキーの名前を書きます．
+このときキー名はなんでも構いませんが，わかりやすく書きやすいものにするとよいでしょう．文中で文献を参照したい箇所に
+\begin{verbatim}
+    \cite{kinoshita}
+\end{verbatim}
+と書けば[1]，[2]のように出力されます．
+
+参考文献の章を書くときはもちろん\verb|thebibliography|環境で問題ありませんが，
+\BibTeX を使用することでより便利な参考文献管理が可能になります．
+
+\section{\BibTeX}
+
+ {\BibTeX}は文献データベースファイル(bibファイル)から自動的に参考文献リストを作ることができるツールです\cite{bibunsyo}．
+
+まずtexファイルと同じフォルダに.bibで終わるファイルを作成します．作ったbibファイルに文献の必要な情報を，例えば次のように書きます．
+\begin{verbatim}
+    @book{kinoshita,
+        title = {理科系の作文技術},
+        author = {木下是雄},
+        publisher = {中央公論社},
+        year = 1981
+    }
+
+    @article{larson1969numerical,
+        title = {Numerical calculations of the dynamics of a collapsing proto-star},
+        author = {Larson, Richard B},
+        journal = {Monthly Notices of the Royal Astronomical Society},
+        volume = {145},
+        number = {3},
+        pages = {271--295},
+        year = {1969},
+        publisher = {Oxford University Press Oxford, UK}
+    }
+\end{verbatim}
+
+\verb|@|の次に続くものは文献の種類を指定するもので，他にも種類がいくつかありますが，私たちが使うものは
+\begin{itemize}
+    \item \verb|@book|：書籍
+    \item \verb|@article|：論文
+\end{itemize}
+の2つでしょう．引用する文献に合わせて指定しましょう．
+
+カッコ内の1行目は参照名です．これは\verb|thebibliography|環境と同じく好きなように名前を付けることができます．
+わかりやすいものにするとよいでしょう．
+
+字下げしている箇所については，これもいくつかオプションがありますがとりあえず例と同じように記述しておけば問題ないと思われます．
+他に追加したい項目がある場合には各自で使い方を調べてください．
+
+また，\verb|title|や\verb|author|などの項目は順番を気にする必要はありません．
+
+bibファイルを1から記述するのは少々面倒ですが，Google Scholarやほか一部の論文や書籍のWebサイトには{\BibTeX}のリンクがある場合があります．
+引用した文献をこれらのサイトで検索して，{\BibTeX}をそのまま自分のbibファイルにコピーすれば作業を大幅に削減できます．
+
+\section{Webサイトの引用}
+
+文書を作成するにあたって，Webサイトを参考にする場合も多くあるでしょう．\verb|thebibliography|環境を使って書いても問題ありませんが，
+ここでは{\BibTeX}でWebサイトの引用をする方法について紹介します．
+
+大まかには書籍や論文の場合と方法は変わりません．例えば，次のように書きます\cite{BibWeb}．
+\begin{verbatim}
+    @misc{BibWeb,
+        author       = {Paperist},
+        howpublished = {\url{https://paperist.mikumiku.moe/basic-usage/bibtex.html}},
+        title        = {{BibTeX} で参考文献を書く},
+        note         = {(閲覧日2023/03/10)}
+    }
+\end{verbatim}
+
+{\BibTeX}ではWebサイト用の指定オプションはないため，ここでは，特に指定のない場合に使用する\verb|@misc|を使います．
+
+書籍や論文を参照するときの\verb|publisher|，出版元に当たるところが\verb|howpublished|です．この欄にはサイトのURLを書きます．
+このとき，そのままURLを貼るのではなく，\verb|\url{}|で囲みます．コマンドを使うために，texファイルのプリアンブルに
+\begin{verbatim}
+    \usepackage[hyphens]{url}
+\end{verbatim}
+を書いておきましょう．bibファイルに書いても意味がないので注意してください．\verb|[hyphens]|をつけておくとurlの改行箇所がハイフンでも
+改行してくれるようになります．
+
+その他については留意しておくことはありません．例と同じように書いておくと良いかと思われます．
+
+
+\chapter{中間発表用テンプレート}
+
+
+\section{ポスター用テンプレート}
+
+中間発表のポスターを \TeX で書きたい人向けのテンプレートです(作成:清水)．
+\begin{verbatim}
+    \documentclass[12pt,twocolumn]{jsarticle}
+    \usepackage[margin=5mm]{geometry}
+
+    \voffset = 10pt
+    \setlength{\headsep}{-30pt}
+    \textheight = 710pt
+
+
+    \usepackage[dvipdfmx]{graphicx}
+    \PassOptionsToPackage{dvipsnames}{xcolor}
+    \usepackage{amsfonts,amsmath,amsthm,mathtools,amssymb,mathrsfs,bm,physics}
+
+    \usepackage{tcolorbox}
+    \tcbuselibrary{breakable,skins}
+
+    \usepackage{titlesec}
+
+    \usepackage[deluxe]{otf}
+    \renewcommand{\kanjifamilydefault}{\gtdefault}
+    \renewcommand{\familydefault}{\sfdefault}
+    \renewcommand{\headfont}{\sffamily\mgfamily}
+
+    \renewcommand{\baselinestretch}{0.8}
+    \renewcommand{\labelitemi}{・}
+    \newcommand{\redunderline}[1]{\textcolor{red}{\underline{\textcolor{black}{#1}}}}
+
+    \makeatletter
+    % \M@LTIPLYコマンドの定義
+    \newdimen\f@keboldsize
+    \def\M@LTIPLY#1#2#3{\f@keboldsize=#1\p@\relax
+    \f@keboldsize=#2\f@keboldsize\relax
+    \edef#3{\expandafter\strip@pt\f@keboldsize}\ignorespaces}
+
+    \newtheoremstyle{mystyle}%
+        {}%
+        {}%
+        {}%
+        {}%
+        {\bfseries}%
+        {}%
+        { }%
+        {\thmname{#1}\thmnumber{#2}\thmnote{(#3)}}%
+    \theoremstyle{mystyle}
+    \newtheorem{definition}{定義}[section]
+    \newtheorem{theorem}{定理}[section]
+    \newtheorem{lemma}{補題}[section]
+    \newtheorem{assumption}{仮定}[section]
+
+    \renewcommand{\proofname}{\textbf{証明}}
+
+
+    \pagestyle{empty}
+
+    \begin{document}
+
+    \columnseprule=0.2mm
+
+    \twocolumn[
+        \title{*}
+        \author{*}
+        \date{\vspace{-10mm}}
+        \maketitle
+
+        \hrulefill
+    ]
+
+    \section{*}
+
+    \end{document}
+\end{verbatim}
+
+パッケージや定理環境などは適宜変更して使用してください．
+このテンプレートを使えばおよそレイアウトは問題ありませんが，変更したい場合は該当箇所を適宜変更するとよいでしょう．
+
+
+%\addcontentsline{toc}{chapter}{\bibname}
+\bibliographystyle{jplain}
+\bibliography{cheat}
+
+\end{document}
