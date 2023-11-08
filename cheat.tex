@@ -78,6 +78,12 @@ gitまたはGithubでcheat.texとcheat.pdfを更新してください(必要に�
 \end{verbatim}
 と書くだけです．この文書では「はじめに」の次のページに出力しています．
 
+デフォルトでは\verb|\subsection{}|まで目次に表示されます．より深い階層を表示したい場合は，\verb|\tableofcontents|の前に
+\begin{verbatim}
+    \setcounter{tocdepth}{n}
+\end{verbatim}
+と書いておくと，$n$階層まで表示することができます．例えば$n=3$にすると\verb|\subsubsection{}|まで表示できます．
+
 \chapter{数式}
 
 \section{行列}
